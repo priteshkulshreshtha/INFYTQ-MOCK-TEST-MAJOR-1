@@ -20,4 +20,5 @@ for i, (name, grade) in enumerate(students[1:]):
         else:
             break
 namelist.sort()
-print(namelist)
+for name in namelist:
+    print(name)
