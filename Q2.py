@@ -4,7 +4,7 @@ for _ in range(n):
     st = input()
     grade = float(input())
     students.append([st, grade])
-
+students = sorted(students, key=lambda x: x[1])
 twoMin = 0
 minGrade = students[0][1]
 namelist = []
